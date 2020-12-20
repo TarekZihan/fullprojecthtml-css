@@ -1,0 +1,563 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Header {
+    overflow: hidden;
+
+}
+
+.Header i {
+
+    font-size: 40px;
+    margin-top: 23px;
+    color: cornflowerblue;
+
+}
+
+.Nav1 {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 140px;
+}
+
+.Nav1 h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.Nav {
+    width: 85%;
+
+}
+
+.Nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+.Nav li {
+
+    display: inline-block;
+    padding: 5px;
+}
+
+
+.Nav a {
+
+    text-decoration: none;
+    display: block;
+    padding: 20px 30px;
+
+}
+
+
+.active {
+    background-color: greenyellow;
+}
+
+.Banner {
+    text-align: center;
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -19px;
+    padding: 200px 0;
+}
+
+
+.Banner h1 {
+
+    color: white;
+    font-size: 50px;
+
+}
+
+.Banner p {
+
+
+    font-size: 15px;
+    color: white;
+    width: 37%;
+    margin: 0 auto;
+}
+
+.Banner a {
+    text-decoration: none;
+    text-align: center;
+    color: beige;
+    /* border: 0px solid; */
+    background-color: dimgrey;
+    padding: 6px 35px;
+    word-spacing: 2px;
+    border-radius: 18px;
+    font-weight: bold;
+}
+
+.Banner a:hover {
+    background-color: grey;
+}
+
+#Container {
+
+    display: block;
+    line-height: 20px;
+    padding: 200px;
+    text-align: center;
+    position: relative;
+    margin-top: -300px;
+
+}
+
+
+.box1 {
+
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    right: 204px;
+}
+
+.box1 i {
+    margin: 50px;
+    font-size: 70px;
+}
+
+
+.box1 p {
+    padding: 24px;
+    margin: 0px 0px;
+    width: 302px;
+}
+
+
+.box2 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    left: 203px;
+}
+
+.box2 i {
+    margin: 50px;
+    font-size: 70px;
+}
+
+.box2 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+}
+
+.box3 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    left: 585px;
+}
+
+.box3 i {
+    margin: 50px;
+    font-size: 70px;
+}
+
+.box3 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+}
+
+
+
+/* Start Services Part */
+
+
+
+.services {
+
+    text-align: center;
+    font-family: sans-serif;
+    display: block;
+    margin-top: 280px;
+
+
+}
+
+.after h1::after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 70px;
+    background-color: black;
+    border-bottom: 2px;
+    margin-left: 720px;
+    margin-top: 10px;
+
+}
+
+.services .services_item {
+
+    position: relative;
+}
+
+.services .services1 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 200px;
+
+}
+
+.services .services1 i {
+    margin: 50px;
+    font-size: 70px;
+
+}
+
+.services .services1 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+
+}
+
+.services .services1:hover {
+    background-color: pink;
+}
+
+
+.services .services2 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    margin-top: 69px;
+    margin-left: 586px;
+}
+
+.services .services2 i {
+    margin: 50px;
+    font-size: 70px;
+
+}
+
+.services .services2 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+
+}
+
+.services .services3 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    margin-top: 71px;
+    margin-left: 972px;
+}
+
+.services .services3 i {
+    margin: 50px;
+    font-size: 70px;
+
+}
+
+.services .services3 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+
+}
+
+.services .services4 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 200px;
+}
+
+.services .services4 i {
+    margin: 50px;
+    font-size: 70px;
+
+}
+
+.services .services4 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+
+}
+
+.services .services5 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 586px;
+}
+
+.services .services5 i {
+    margin: 50px;
+    font-size: 70px;
+
+}
+
+.services .services5 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+
+}
+
+.services .services6 {
+    height: 380px;
+    width: 350px;
+    background-color: beige;
+    position: absolute;
+    margin-left: 972px;
+    margin-top: 500px;
+}
+
+.services .services6 i {
+    margin: 50px;
+    font-size: 70px;
+
+}
+
+.services .services6 p {
+    padding: 16px;
+    margin: 0px 0px;
+    width: 316px;
+
+}
+
+/* About Us */
+
+.container {
+    background-color: beige;
+    margin-top: 1000px;
+    font-family: sans-serif;
+    overflow: hidden;
+
+}
+
+.text h1 {
+
+
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.text h1::after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 80px;
+    border-bottom: 1px solid black;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 720px;
+}
+
+.image img {
+    float: left;
+    height: 550px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 120px;
+}
+
+.heading {
+    margin-top: 180px;
+    font-family: sans-serif;
+    font-size: 25px;
+
+}
+
+.heading h1 {
+    overflow: hidden;
+    text-align: center;
+}
+
+.heading a {
+    margin-left: 230px;
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    background-color: rgb(238, 150, 18);
+    padding: 20px 35px;
+    border-radius: 12px;
+
+}
+
+.heading a:hover {
+    background-color: green;
+    color: white;
+}
+
+/* Ending about us part */
+
+
+/* Start dub header part */
+
+
+.three {
+    background-color: beige;
+    overflow: hidden;
+    margin-top: 60px;
+
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.subheader {
+    width: 50%;
+    float: left;
+    font-family: sans-serif;
+}
+
+.subheader h1 {
+    display: inline-block;
+
+}
+
+.subheader p {
+    font-size: 20px;
+}
+
+.ancor a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: green;
+    color: white;
+    float: right;
+    margin-top: 80px;
+    border-radius: 10px;
+
+
+}
+
+.ancor a:hover {
+    background-color: rgb(216, 155, 41);
+    color: black;
+}
+
+/* Start form part */
+
+
+.form {
+margin-top: 130px;
+    background: rgb(190, 127, 116);
+    font-family: sans-serif;
+
+
+}
+
+form {
+    margin: 0 auto;
+}
+
+.text h1 {
+    display: block;
+    margin: 0;
+
+
+}
+
+.input [type=text] {
+    padding: 8px 30px;
+    margin: 8px 0;
+    background-color: rgb(178, 221, 214);
+    color: black;
+
+
+}
+
+.input [type=number] {
+    padding: 8px 30px;
+    margin: 8px 0;
+    background-color: rgb(178, 221, 214);
+    color: black;
+
+
+}
+
+.input [type=password] {
+    padding: 8px 30px;
+    margin: 8px 0;
+    background-color: rgb(178, 221, 214);
+    color: black;
+
+
+}
+
+.radio [type=radio] {
+
+    margin-left: 20px;
+
+}
+
+.checkbox [type=checkbox] {
+    margin-left: 20px;
+
+}
+
+.select [id=country] {
+    margin-left: 20px;
+    padding: 8px 35px;
+}
+
+.comment textarea{
+    width: 35%;
+    
+}
+
+.submit [type=submit] {
+    padding: 8px 30px;
+    border-color: white;
+}
+
+.submit [type=submit]:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.submit [label=reset]{
+     border: 0;
+}
+
+.submit [type=reset] {
+   
+    padding: 8px 35px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+    /* End Form part */
